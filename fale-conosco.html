@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" type="text/css" href="_css/form.css">
+<link rel="stylesheet" type="text/css" href="_css/estilo.css">
+<title>Fale Conosco</title>
+</head>
+<script language="JavaScript" src="_java">
+</script>
+
+<script language="JavaScript" src="_javascript/funcoes.js"></script>
+
+<script>
+    function calc_total(){
+        var qtd = parseInt(document.getElementById('idQtd1).value);
+        tot = qtd * 1500;
+        document.getElementById('idTot').value = tot;
+        }
+
+</script>
+
+<body>
+
+<div id="interface">
+
+<header id="cabecalho">
+
+<header id="cabecalho">
+    <hgroup>
+        <h1>TechWorld</h1>
+        <h3>Diferença de Software e Hardware </h3>
+    </hgroup>
+
+<img id="icone" src="_imagens/contato.png">
+
+<nav id="menu">
+<h1>Menu Principal</h1>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="software-hardware.html">Software e Hardware</a></li>
+<li><a href="autor.html">Autor</a></li>
+<li><a href="fale-conosco.html">Fale Conosco</a></li>
+</ul>
+</nav>
+</header>
+
+    <div id="fale-conosco">
+
+    <hgroup id="cabecalho=noticia-principal">
+<h3>Profissões de Ti</h3>
+<h1>Saiba tudo sobre Ti</h1>
+<h2>por Bruno de Sá H.</h2>
+<h3 class="direita">Atualizado em 13/junho/2023</h3>
+</hgroup>
+
+<form method="post" id="idContato" action="mailto:arthurtaouil@icloud.com">
+
+<fieldset id="idUsuario">
+<legend>Identificação do Usuário</legend>
+<p><label for="idNome">Nome:</label><input type="text" name="nNome" id="idNome" size="20" maxlength="40" placeholder="Nome Completo"> </p>
+<p><label for="idSenha">Senha:</label><input type="password" name="nSenha" id="idSenha" size="8" maxlength="8" placeholder="até 8 digitos"></p>
+<p><label for="idEmail">E-mail:</label><input type="email" name="nEmail" id="idEmail" size="20" maxlength="30"></p>
+<fieldset id="idSexo">
+<legend>Sexo:</legend>
+<input type="radio" name="nSexo" id="idMasc"><label for="idNome">Masculino</label><br>
+<input type="radio" name="nSexo" id="idFem"><label for="idNome">Feminino</label>
+</fieldset>
+<p>Data de Nascimento:<input type="date" name="nNasc" id="idNasc">
+"
+</fieldset>
+
+<fieldset id="idEndereco">
+<legend>Endereço do Usuário</legend>
+<p><label for="idRua">Logradouro:</label><input type="text" name="nRua" id="idRua" size="13" maxlength="50" placeholder="Rua, Av, Trav..."></p>
+<p><label for="idNum">Número:</label><input type="number" name="nNum" id="idNum" min="0" max="99999"></p>
+<p><label for="idEst">Estado:</label>
+<select name="nEst" id="idEst">
+<optgroup label="Região Sudeste">
+<option value="RJ">Rio de Janeiro</option>
+<option value="SP">São Paulo</option>
+<option value="ES">Espírito Santo</option>
+<option value="MG">Minas Gerais</option>
+</optgroup>
+<optgroup label="Região Sul">
+<option value="PR">Paraná</option>
+<option value="SC">Santa Catarina</option>
+<option value="RS">Rio Grande Do Sul a</option>
+</optgroup>
+</select>
+</p>
+<p><label for="idCid">Cidade:</label><input type="text" name="nCid" id="idCid" size="20" maxlength="40" placeholder="Insira sua cidade" list="cidades">
+<datalist id="cidades">
+<option value="Rio de Janeiro">Rio de Janeiro</option>
+<option value="Nova Iguaçu">Nova Iguaçu</option>
+<option value="Belford Roxo">Belford Roxo</option>
+<option value="Niterói">Niterói</option>
+</datalist>
+</p>
+</fieldset>
+
+<fieldset id="idMensagem">
+<legend>Mensagem do Usuário</legend>
+<p><label for="idUrg">Grau de Urgência:</label>Min:<input type="range" name="nUrg" id="idUrg" min="0" max="10" step="2">Máx</p>
+<p><label for="idMsg">Mensagem:</label>
+<textarea name="nMsg" id="idMsg" cols="45" rows="5" maxlength="250" placeholder="Deixe aqui sua mensagem"></textarea>
+</p>
+</fieldset>
+
+
+
+<input type="image" src="_imagens/botao-enviar.png" name="nEnviar">
+
+</form>
+<footer id="rodape">
+<p>Copyright 2023 - by Bruno de Sá H.<br>
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Facebook</a> |
+<a href="https://www.google.com/search?rlz=1C1GCEJ_enBR1045BR1045&sxsrf=APwXEdcySSX7CKNYHOMRBzkO2jz0z1jQkQ:1686656062915&q=Troll+face&tbm=isch&sa=X&ved=2ahUKEwiX3fO7k8D_AhV3t5UCHfdCBU4Q0pQJegQICxAB&biw=1920&bih=969&dpr=1#imgrc=XXYJjcpIM16s7M" target="_blank">Twitter</a>
+</p>
+</footer>
+</div>
+</body>
+</html>

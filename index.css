@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+
+@font-face {
+font-family: 'FonteLogo';
+src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+
+
+body {
+  background-color: #4682B4;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+div#interface {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos do cabeçalho */
+header#cabecalho {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header#cabecalho h1 {
+  font-size: 32px;
+  color: #333;
+  margin: 0;
+}
+
+header#cabecalho h3 {
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+}
+
+/* Estilos do corpo */
+section#corpo {
+  margin-bottom: 30px;
+}
+
+section#corpo h1 {
+  font-size: 24px;
+  color: #333;
+  margin: 20px 0;
+}
+
+section#corpo h2 {
+  font-size: 20px;
+  color: #333;
+  margin: 10px 0;
+}
+
+section#corpo p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+section#corpo ul {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+  list-style: disc;
+  margin-left: 20px;
+}
+
+/* Estilos do rodapé */
+footer#rodape {
+  text-align: center;
+  margin-top: 30px;
+  color: #666;
+  font-size: 14px;
+}
+
+footer#rodape a {
+  color: #666;
+  text-decoration: none;
+}
+
+footer#rodape a:hover {
+  text-decoration: underline;
+}
+
+div#interface {
+position: relative;/* Transforma a div em um container */
+background-color: #fff; /* branco */
+width: 900px;
+margin: -23px auto 0px auto;
+box-shadow: 0px 0px 10px rgba(0,0,0, 0.5); /* sombra */
+padding: 10px; /* espaçamento interno da div */
+ border: 2px solid #000;
+}
+
+hgroup#conteudo h3 {
+font-family: "Arial", Verdana; /* Exemplo de fonte diferenciada */
+  font-size: 24px; /* Exemplo de tamanho de fonte */
+  color: #696969; /* Exemplo de cor de fonte */
+
+}
+
+nav#menu {
+display: block; /* transformar tudo o que é menu em bloco */
+}
+
+nav#menu ul {
+list-style: none; /* remover marcadores da lista */
+text-transform: uppercase; /* converter para maiúsculas */
+position: absolute; /* para que o menu possa ser colocado no topo, é preciso virar absoluto */
+top: 3px; /* posicionado ao topo. valor negativo para empurrar além da borda */
+right: 25px; /* posicionado à direita */
+}
+
+nav#menu li {
+display: inline-block; /* colocar os itens lado a lado */
+background-color: #ddd; /* cor de fundo - cinza */
+padding: 7px; /* aumentar o espaçamento interno da caixa cinza */
+margin: 2px; /* aumentar o espaçamento externo da caixa cinza */
+transition: background-color 1.5s; /* tempo da transição do background-color */
+}
+
+/* hover para efeito do mouse ao passar sobre o li */
+nav#menu li:hover {
+background-color: #606060; /* cinza escuro */
+}
+
+nav#menu h1 {
+display: none; /* ocultar a tag h1 que está em nav id menu */
+}
+
+nav#menu a {
+color: #000; /* preto */
+text-decoration: none; /* remove o sublinhado do link */
+}
+/* ao passar o mouse sobre o link (tag a) */
+nav#menu a:hover {
+color: #fff; /* branco */
+text-decoration: underline; /* sublinhado */
+}
+
+header#cabecalho {
+border-bottom: 1px #606060 solid;
+height: 150px;
+
+}
+
+header#cabecalho h1 {
+font-family: 'FonteLogo';
+color: #606060;
+font-size: 28pt;
+text-shadow: 1px 1px 1px rgba(0,0,0, 0.6);
+padding: 0px;
+margin-bottom: 0px;
+}
+
+header#cabecalho h2 {
+font-family: 'Titillium Web', sans-serif;
+color: #888888; /* cinza claro */
+padding: 0px;
+margin-top: 0px;
+}
+
